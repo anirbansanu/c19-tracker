@@ -42,8 +42,7 @@ export default class Tracker extends Component {
                                         Live
                                     </Badge>
                                 </font>
-                        </h2>
-                        
+                        </h2> 
                     </Col>
                 </Row>
                 <Row>
