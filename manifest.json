@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "C19-Tracker",
+  "name": "This is a Covid Case Tracker For India and Indians",
   "icons": [
     {
       "src": "favicon.ico",
