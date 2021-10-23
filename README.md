@@ -1,3 +1,17 @@
+# c19-tracker Intro
+
+c19-tracker is COVID Tracking Project collects and publishes the most complete Active, Affected, Testing and Vaccinated data available for India states and territories.
+
+[<- Link ->](https://anirbansanu.github.io/c19-tracker/)
+
+<pre>
+https://anirbansanu.github.io/c19-tracker/
+</pre>
+
+#### Example Image 
+
+<img src="https://github.com/anirbansanu/c19-tracker/blob/master/example.png" width="600" />
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
