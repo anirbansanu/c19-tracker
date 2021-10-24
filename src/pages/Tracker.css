@@ -9,6 +9,10 @@ body{
     overflow: hidden;
     transition: 0.25s;
     cursor: pointer;
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+  user-select: none;          /* Likely future */      
 }
 .card::before{
     content: "";
@@ -17,7 +21,7 @@ body{
     left: 0;
     width: 50%;
     height:100%;
-    background: linear-gradient(to left, rgba(255, 255, 255, 0.15), transparent);
+    background: linear-gradient(to left, rgba(255, 255, 255, 0.14), transparent);
     transform: skewX(45deg) translateX(0);
     transition: 0.3s;
 }
@@ -33,9 +37,13 @@ transform: skewX(45deg) translateX(200%);
     box-shadow: 0 10px 20px rgba(253, 251, 251, 0.12), 0 4px 8px rgba(255,255,255,.06);
    
 }
+.mdl-text-card{
+    text-overflow: ellipsis;
+}
 .mdl-text{
     font-weight: bolder;
     letter-spacing: 3px;
+    
 }
 .modal-content{
     background: rgb(36, 35, 35) !important;
