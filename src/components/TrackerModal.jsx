@@ -20,9 +20,6 @@ export default class TrackerModal extends Component {
                     <Row className='mt-4'>
                         { 
                             Object.keys(StatesNames).map((item, i) => (
-                                // <li className="travelcompany-input" key={i}>
-                                //     <span className="input-label">{ subjects[item].name }</span>
-                                // </li>
                                 <Col sm={6} md={4} lg={3} className='mt-2 mb-2' onClick={this.props.onHide} key={i}>
                                     <div onClick={()=>{
                                         let s = this.props.stateWise[item];
