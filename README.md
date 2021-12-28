@@ -1,6 +1,7 @@
 # c19-tracker Intro
 
 C19-tracker is COVID Tracking Project collects and publishes the most complete Active, Affected, Testing and Vaccinated data available for India states and territories.
+The information will be displayed according to the name of the state.
 
 [<- Link ->](https://anirbansanu.github.io/c19-tracker/)
 [<- Vercel Link ->](https://c19-tracker.vercel.app/)
